@@ -31,10 +31,15 @@ SpringBoot, Jpa를 이용한 배달앱 백엔드
 <br>
 
 ## 화면 구현
+<br>
 - 로그인
+
+<br>
+
 ![KakaoTalk_20231225_235837651_02](https://github.com/bbbangduk9/delivery_project/assets/142999206/08b4f38a-c002-48d6-b391-157b4e144070)
 
 <br>
+
 - 헤더에 토큰 등록
 
 ![KakaoTalk_20231225_235837651_03](https://github.com/bbbangduk9/delivery_project/assets/142999206/a7193a53-9d4c-4c49-ae31-a7470ef98408)
