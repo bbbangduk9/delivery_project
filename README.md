@@ -1,12 +1,14 @@
+<div align=center>
 # delivery_project
 배달사이트_백엔드
 
 ## 프로젝트 소개
 SpringBoot, Jpa를 이용한 배달앱 백엔드 
 <br>
-<div align=center><h1>개발 기간</h1></div>
-<div align=center><h1>*23.12.19 - 23.12.26</h1></div>
+<h1>개발 기간</h1>
+<h1>*23.12.19 - 23.12.26</h1>
 <br>
+</div>
 
 ### 개발스택
 <div align=center><h1>📚 STACKS</h1></div>
