@@ -4,8 +4,8 @@
 ## 프로젝트 소개
 SpringBoot, Jpa를 이용한 배달앱 백엔드 
 <br>
-## 개발 기간
-*23.12.19 - 23.12.26
+<div align=center><h1>## 개발 기간</h1></div>
+<div align=center><h1>*23.12.19 - 23.12.26</h1></div>
 <br>
 
 ### 개발스택
