@@ -1,7 +1,9 @@
 <div align=center>
 # delivery_project
 배달사이트_백엔드
-
+</div>
+</br>
+<div align=center> 
 ## 프로젝트 소개
 SpringBoot, Jpa를 이용한 배달앱 백엔드 
 <br>
