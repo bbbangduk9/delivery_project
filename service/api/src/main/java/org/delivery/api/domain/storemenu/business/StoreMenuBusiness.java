@@ -1,0 +1,45 @@
+package org.delivery.api.domain.storemenu.business;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.delivery.api.common.annotation.Business;
+import org.delivery.api.domain.storemenu.controller.model.StoreMenuRegisterRequest;
+import org.delivery.api.domain.storemenu.service.StoreMenuService;
+import org.delivery.api.domain.storemenu.controller.model.StoreMenuResponse;
+import org.delivery.api.domain.storemenu.converter.StoreMenuConverter;
+
+import lombok.RequiredArgsConstructor;
+
+@RequiredArgsConstructor
+@Business
+public class StoreMenuBusiness {
+
+	private final StoreMenuService storeMenuService;
+	private final StoreMenuConverter storeMenuConverter;
+
+	public StoreMenuResponse register(
+		StoreMenuRegisterRequest request
+	){
+		//req -> entity -> save -> response
+		var entity = storeMenuConverter.toEntity(request);
+		var newEntity = storeMenuService.register(entity); //바뀐거 save
+		var response = storeMenuConverter.toResponse(newEntity); //바뀐거 response
+		return response;
+	}
+
+	//특정 가게 검색
+	public List<StoreMenuResponse> search(
+		Long storeId
+	){
+		var list = storeMenuService.getStoreMenuByStoreId(storeId);
+
+		return list.stream()
+			.map(it->{
+				return storeMenuConverter.toResponse(it);
+			})
+	//		.map(storeMenuConverter::toResponse) //람다
+			.collect(Collectors.toList());
+
+	}
+}
