@@ -30,6 +30,12 @@ SpringBoot, Jpa를 이용한 배달앱 백엔드
 
 <br>
 
+## ERD 구현
+
+![db_erd](https://github.com/bbbangduk9/delivery_project/assets/142999206/54c0e1c6-fd5e-430c-93b3-89a8023f2cb7)
+
+<br>
+
 ## 화면 구현
 <br>
 - 로그인
