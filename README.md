@@ -5,7 +5,7 @@
 </br>
 <div align=center> 
 프로젝트 소개
-SpringBoot, Jpa를 이용한 배달앱 백엔드 
+SpringBoot, Spring Data JPA를 이용한 배달앱 백엔드 
 <br>
 <h1>개발 기간</h1>
 <h1>*23.12.09 - 23.12.26</h1>
